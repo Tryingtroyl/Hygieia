@@ -1,0 +1,26 @@
+After installing from the 'prerequisites.txt' file, steps for setting up Hygieia are mentioned below:
+
+1. Setup
+
+    - Clone the below mentioned github repositories -
+        https://github.com/hygieia/api.git
+        https://github.com/hygieia/UI.git
+    - Navigate to your UI folder and install the package dependencies by running 'npm install'.
+    - Download Angular CLI by running 'npm install -g @angular/cli@8.0.3'.
+    - Run 'ng version' to check your Angular CLI version and related package dependency versions (make sure the package versions are v8).
+
+2. Build and run the executable file for the api
+
+    - Navigate to the '\api' directory and run 'mvn clean install'.
+    - This will create an output 'api.jar' file in the '\target' folder.
+    - Make sure you set the configurable parameters in the 'api.properties' file to connect to the dashboard MongoDB database instance.
+    - Navigate to 'api\target', and execute 'java -jar api.jar'
+
+3. Build the Project
+
+    - With the api running, open a different terminal and run 'ng build' in your '\UI' folder.
+
+4. Development server
+
+    - In the \UI folder, run 'ng serve' for a dev server.
+    - Navigate to 'http://localhost:4200/' in a browser.
