@@ -1,0 +1,11 @@
+About Hygieia:
+Hygieia is an Open Source Software by Capital One which promotes a single configurable easy to use dashboard to visualize near real-time status of the entire delivery pipeline.
+
+Aim:
+We aim to use the Hygieia dashboard to obtain real-time status of our Jenkins pipelines, while integrating the dashboard with JIRA, Git and SonarQube architectures. The integrations have to be specific and personalized to better serve the organization's purpose.
+
+Integrations with:
+1. Jenkins
+2. Git
+3. JIRA
+4. SonarQube

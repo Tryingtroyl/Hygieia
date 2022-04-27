@@ -1,0 +1,31 @@
+The Pre-requisites to using Hygieia are as follows:
+
+
+1. Java JDK 8
+
+    - Link: https://www.oracle.com/java/technologies/downloads/#java8-windows
+    - Please notice that the only supported version is 8 and the future versions do not facilitate Hygieia installation.
+    - The installation would require an Oracle sign-in, so please sign-up on Oracle if not already done so.
+    - Create a system variable "JAVA_HOME" in the user system variables and add the installation directory's path to system path variables.
+
+
+2. Maven 3.8.5
+
+    - Link: https://maven.apache.org/download.cgi
+    - Extract the binary zip file and add "MAVEN_HOME" and "M2_HOME" in the user system variables with the value as the extracted directory's path.
+    - Add the /bin folder to Path as well.
+
+
+3. Node.Js
+
+    - Link: https://nodejs.org/en/download/
+    - Download the Windows installer and run it.
+
+
+4. MongoDB
+
+    - Link: https://www.mongodb.com/try/download/community?tck=docs_server
+    - Download the Community Server MongoDB for Windows and install.
+    - Choose "Install as a service" uduring installation.
+    - Add the installation directory to path.
+ 
